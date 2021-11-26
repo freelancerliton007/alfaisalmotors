@@ -1,0 +1,838 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*Nagivation start */
+
+
+
+
+header{
+    box-shadow: 0 4px 8px 1px gray;
+
+}
+
+
+header img{
+    width: 130px;
+}
+
+
+header .nav-link{
+    font-size: 16px;
+    
+    
+}
+
+header .nav-link::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #fb5200;
+    margin: auto;
+    display: block;
+    transition: .3s;
+}
+
+
+header .nav-link:hover::after{
+    width: 100%;
+}
+
+
+header nav .active::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #fb5200;
+    margin: auto;
+    display: block;
+}
+
+
+/* Nagivation end */
+
+
+
+
+
+/* Home slider start */
+
+
+.content-title{
+    width: 38%;
+    height: 80px;
+    background: #fff;
+    margin: auto;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,5,0.5);
+    position: relative;
+}
+
+
+.content-title h1{
+    line-height: 80px;
+}
+
+
+.content-title::before{
+    content: "" ;
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	background: #f992a6;
+	top: -9px;
+	left: -9px;
+	z-index: -1;
+}
+
+
+.content-title::after{
+    content: "" ;
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	background: #f992a6;
+	bottom: -9px;
+	right: -9px;
+	z-index: -1;
+}
+
+
+
+#showcase{
+    width: 100%;
+    height: auto;
+}
+
+
+#showcase .carousel-item{
+    width: 100%;
+    height: auto;
+}
+
+
+#showcase img{
+    width: 100%;
+  
+}
+
+
+/* Home slider end */
+
+
+
+
+/* Our latest car start*/
+
+
+
+
+.content-title{
+    width: 38%;
+    height: 80px;
+    background: #fff;
+    margin: auto;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,5,0.5);
+    position: relative;
+}
+
+
+.content-title h1{
+    line-height: 80px;
+}
+
+
+.content-title::before{
+    content: "" ;
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background: #f992a6;
+    top: -9px;
+    left: -9px;
+    z-index: -1;
+}
+
+
+.content-title::after{
+    content: "" ;
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background: #f992a6;
+    bottom: -9px;
+    right: -9px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+#ourcar .single-box{
+    width: auto;
+    height: 420px;
+    outline: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#ourcar .single-box:hover{
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 20%);
+    outline: none;
+}
+
+
+#ourcar .product-photo{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+#ourcar .product-photo img{
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+#ourcar .product-photo img:hover{
+    transform: scale(1.1);
+}
+
+
+#ourcar .product-photo img{
+    width: 100%;
+}
+
+
+#ourcar .single-box a{
+    color: crimson;
+
+}
+
+
+#ourcar .single-box a:hover{
+    border-bottom: crimson;
+}
+
+
+#ourcar .single-box p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 9px;
+}
+
+
+#ourcar .single-box .btn{
+    float: right;
+    margin-top: -85px;
+    color: #fff;
+}
+
+
+
+
+
+
+/* Our latest car end*/
+
+
+
+
+
+
+/*Happy  customer start*/
+
+
+
+#happy-customer .card{
+	border: none; 
+ 
+}
+
+#happy-customer .card-body{
+	border-radius: 10px;
+}
+
+
+
+#happy-customer .col-8{
+	margin-top: 10px;
+}
+
+
+#happy-customer .text-muted{
+	margin-top: -10px;
+}
+
+
+#happy-customer .fas{
+	font-size: 30px;
+	margin-top: -12px;
+	margin-left: 30px;
+	color: #17A2B8;
+}
+
+
+
+#happy-customer .owl-prev{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+#happy-customer .owl-next{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+/*/*Happy  customer end*/
+
+
+
+
+
+
+
+
+/* Map start */
+
+
+    #map{
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+    }
+
+
+    #map iframe{
+        width: 100%;
+        height: 70vh;
+        border: 0;
+    }
+
+
+/* Map end */
+
+
+
+
+
+/* Newsletter start */
+
+
+
+    #newsletter{
+        font-family: sans-serif;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
+    #newsletter .main-content{
+        width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+
+
+    #newsletter .main-content h4{
+        font-size: 27px;
+        font-weight: bold;
+        color: #444444;
+    }
+
+
+    #newsletter p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    #newsletter input::placeholder{
+        font-size: 15px;
+        font-weight: bold;
+        color: #777;
+    }
+
+
+
+    #newsletter input[type=email]{
+        font-size: 15px;
+        font-weight: bold;
+        color: #777;    }
+
+
+
+    
+    
+
+
+/* Newsletter end */
+
+
+
+
+
+
+/* Footer start */
+
+
+footer{
+    height: auto;
+    width: 100%;
+    
+}
+
+
+footer img{
+    width: 170px;
+}
+
+
+footer .footer-description p{
+    font: 16px;
+    font-weight: 600;
+}
+
+
+footer .footer-social-icon a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+footer .footer-social-icon .fab{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    transition: .3s;
+}
+
+
+footer .footer-social-icon .fab:hover{
+    background: crimson;
+    color: #fff;
+}
+
+
+footer .footer-social-icon .fas{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    transition: .3s;
+}
+
+
+footer .footer-social-icon .fas:hover{
+    background: crimson;
+    color: #fff;
+}
+
+
+footer .custome-border h5{
+    width: 123px;
+
+}
+
+
+footer .custome-border h5::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background: crimson;
+    margin-top: 10px!important;
+    display: block;
+    margin: auto;
+
+}
+
+
+footer .contact-info h5{
+    width: 145px
+}
+
+
+footer .contact-info h5::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background: crimson;
+    margin-top: 10px!important;
+    display: block;
+    margin: auto;
+
+}
+
+
+footer .custome-border a{
+    text-decoration: none;
+    color: #6c757d!important;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .2s;
+
+}
+
+
+footer .custome-border p:hover{
+    color: crimson;
+}
+
+
+footer .contact-info p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+footer .contact-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/*Footer end*/
+
+
+
+
+
+
+
+/*About us page start*/
+
+
+
+
+
+
+
+
+/*Abut us start*/
+
+
+#about p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*About us end*/
+
+
+
+
+
+
+
+/*Gallery page start*/
+
+
+
+
+/*Gallery start*/
+
+
+
+
+#gallery img{
+    width: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+
+#gallery img:hover{
+    transform: scale(1.1);
+}
+
+
+.lb-data .lb-caption{
+    font-size: 17px!important;
+}
+
+
+
+/*Gallery end*/
+
+
+
+
+
+/*Contact us page start*/
+
+
+
+/*Contact start*/
+
+
+
+#contact textarea{
+    border: none;
+    outline: 1.5px solid #ddd;
+    border-radius: 3px;
+}
+
+
+#contact textarea[type=text]{
+    padding: 10px;
+}
+
+
+#contact [type=text]{
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+
+#contact [type=email]{
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+
+#contact [type=password]{
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+
+
+#contact .contact-form-info p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #777;
+    line-height: 10px;
+}
+
+
+
+
+/*Contact start*/
+
+
+
+
+
+/*Contact us page end*/
+
+
+
+
+
+
+
+
+
+/*Responsive Start */
+
+
+
+
+
+/*Nagivation start */
+
+
+@media(max-width: 991px){
+
+    header nav .active{
+        margin-top: 10px;
+    }
+
+
+    header nav .active::after{
+        width: 0%;
+    }
+
+    header nav .nav-link{
+        text-align: center;
+    }
+
+    header .custome-border{
+        border-top: 3px solid #fb5200;
+        margin-top: 20px;
+        
+    }
+
+
+}
+
+
+
+/*Nagivation end */
+
+
+
+
+
+/*Home slider start */
+
+
+@media(max-width: 992px){
+    #showcase .carousel-item{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+/*Home slider end*/
+
+
+
+
+
+/*Newsleter start*/
+
+
+
+@media(min-width: 1024px){
+    #newsletter .main-content button{
+        margin-top: -38px;
+        float: right;
+        margin-right: 3px;
+        width: 130px;
+        height: 35px;
+        border: none;
+        font-size: 15px;
+        font-weight: 500;
+        background: crimson;
+        transition: .3s;
+    }
+
+    #newsletter .main-content button:hover{
+        background: #222;
+       
+    }
+}
+
+
+
+@media(max-width: 1199px){
+    #newsletter .main-content button{ 
+        margin-top: 30px;
+        float: none;
+    }
+}
+
+
+@media(max-width: 576px){
+    #newsletter .main-content{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    
+}
+
+
+
+/*Newsleter end*/
+
+
+
+
+
+/* Footer start */
+
+
+@media(min-width: 992px){
+    footer{
+    border-top-left-radius: 150px;
+
+    }
+}
+
+
+
+@media(max-width: 992px){
+    footer{
+        text-align: center;
+        
+        
+    }
+
+    footer h5{
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+
+
+
+/* Footer end */
+
+
+
+
+/* Copyright start */
+
+
+@media(max-width: 992px){
+    #copyright{
+        text-align: center;
+        
+    }
+}
+
+
+
+/* Copyright end */
+
+
+
+
+/* Gallery start */
+
+
+
+@media(max-width: 1024px){
+    .lb-nav a.lb-next{
+        opacity: 1!important;
+    }
+    
+    
+    .lb-nav a.lb-prev{
+        opacity: 1!important;
+    }
+
+}
+
+
+
+/* Gallery end */
+
+
+
+
